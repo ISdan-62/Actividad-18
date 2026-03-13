@@ -1,7 +1,7 @@
 ﻿int opcion = 0;
 do
 {
-    Console.WriteLine("MENU");
+    Console.WriteLine("Menu");
     Console.WriteLine("1. Calcular el área de un círculo");
     Console.WriteLine("2. Calcular el área de un triángulo");
     Console.WriteLine("3. Calcular el factorial de un número");
