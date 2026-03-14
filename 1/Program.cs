@@ -19,9 +19,9 @@ do
                 Console.WriteLine("Ingrese el nombre del estudiante: ");
                 string nombre = Console.ReadLine();
                 double sumaNotas = 0;
-                for (int i = 1; i <= 3; i++)
+                for (int repetir=1; repetir<= 3; repetir++)
                 {
-                    Console.WriteLine($"Ingrese la nota {i}: ");
+                    Console.WriteLine($"Ingrese la nota {repetir}: ");
                     double nota = double.Parse(Console.ReadLine());
                     sumaNotas += nota;
                 }
